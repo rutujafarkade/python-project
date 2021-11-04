@@ -1,0 +1,17 @@
+# import Required module
+
+import pywhatkit
+
+# In order to avoid exception we are Handling Exception
+
+# noinspection PyBroadException
+try:
+    # Sending message to Receiver
+
+    pywhatkit.sendwhatmsg("+91XXXXXXXXXX", "Happy Birthday🥳🎂", 18, 37)
+    print("Message Sent Successfully!")
+
+
+except:
+
+    print("Error!!!")
